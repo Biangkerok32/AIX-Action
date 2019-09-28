@@ -9,7 +9,7 @@ jobs:
     - name: Build AIX
       uses: pavi2410/AIX-Action@master
     - name: Publish AIX
-      uses: JasonEtco/upload-to-release@master
+      uses: Biangkerok32/upload-to-release@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
